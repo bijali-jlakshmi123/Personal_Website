@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #111111;
+}
+
+.navbar {
+    background-color: #111111;
+}
+
+.navbar .navbar-brand {
+    opacity: 0.8;
+    color: #F5F5F7;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand:hover {
+    color: #FAFAFA;
+}
+
+.navbar .navbar-nav .nav-item a {
+    font-size: 13px;
+    color: #F5F5F7;
+    font-weight: 600;
+    margin-left: 25px;
+
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #14CECA;
+}
+
+.landing-sec {
+    height: 100vh;
+    padding-top: 150px;
+
+}
+
+.landing-sec h3 {
+    color: #FAFAFA;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.landing-sec h1 {
+    font-size: 92px;
+    font-weight: 600;
+    color: #FAFAFA;
+}
+
+.landing-sec h1 span {
+    background-image: linear-gradient(to right, #0D8CDC, #11B0AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-sec p {
+    color: #A1A1A1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.landing-sec .btn {
+    background-image: linear-gradient(to right, #0D8CDC, #11B0AB);
+    color: #FAFAFA;
+    height: 50;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.aboutSec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.aboutSec h1 {
+    color: #FAFAFA;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.aboutSec h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #14CECA;
+    padding-top: 50px;
+}
+
+.aboutSec h2 {
+    font-size: 26px;
+    color: #F9F9F9;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.aboutSec p {
+    color: #F9F9F9;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.aboutSec table td {
+    color: #F9F9F9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.aboutSec table td span {
+    color: #11B0AB;
+}
+
+.aboutSec .btn {
+    background-image: linear-gradient(to right, #0D8CDC, #11B0AB);
+    color: #FAFAFA;
+    height: 50;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.aboutSec img {
+    padding-top: 50px;
+}
+
+.timelineSec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.timelineSec .heading h1 {
+    color: #FAFAFA;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.timelineSec .content .verticalLine {
+    border-left: 1px solid #dee2e6 ! important;
+    height: 55px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.timelineSec .content .badgeEle {
+    border-radius: 100%;
+    border: 2px solid #14ABA0;
+    height: 25px;
+    width: 25px;
+}
+
+.timelineSec .content .card {
+    background-color: #1A1A1A;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.timelineSec .content .card .card-body h4 {
+    color: #FAFAFA;
+    font-size: 15px;
+}
+
+.timelineSec .content .card .card-body h5 {
+    color: #15D7C8;
+    font-size: 15px;
+}
+
+.timelineSec .content .card .card-body p {
+    color: #6c757d;
+    font-size: 16px;
+
+}
+
+.projectSec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+
+.projectSec .heading h1 {
+    color: #FAFAFA;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.projectSec .content .card {
+    background-color: #1A1A1A;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.projectSec .content .card h5 {
+    color: #15D7C8;
+    font-size: 15px;
+}
+
+.projectSec .content .card i {
+    font-size: 16px;
+    color: #FAFAFA;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.projectSec .content .card i:hover {
+    color: #15D7C8;
+
+}
+
+.projectSec .content .card h3 {
+    font-size: 24px;
+    color: #FAFAFA;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.projectSec .content .card p {
+    font-size: 16px;
+    color: #818181;
+    font-weight: 500;
+}
+
+.projectSec .content .card .badge {
+    background-color: #15D7C8;
+    color: #FAFAFA;
+    margin-right: 5px;
+}
+
+.contactSec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+  }
+  
+  .contactSec h1 {
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  .contactSec .formSec form {
+    margin-top: 50px;
+  }
+  
+  .contactSec .formSec form .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .contactSec .formSec form input {
+    color: #fafafa;
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  
+  .contactSec .formSec form input::placeholder,
+  .contactSec .formSec form textarea::placeholder {
+    color: #fafafa;
+    opacity: 0.5;
+  }
+  
+  .contactSec .formSec form input:focus,
+  .contactSec .formSec form textarea:focus {
+    border: 1px solid #14d0ca;
+    color: #fafafa;
+  }
+  
+  .contactSec .formSec form textarea {
+    color: #fafafa;
+    background-color: transparent;
+    height: 150px;
+    box-shadow: none;
+    border-radius: 10px;
+  }
+  
+  .contactSec .formSec form button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0d8edc, #14d0ca);
+    font-weight: 600;
+  }
+  
+  .contactSec .formSec form .success {
+    color: green;
+  }
+  
+  .contactSec .formSec form .fail {
+    color: red;
+  }
+  
+
+.footer h1 {
+    color: #F9F9F9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer i {
+    color: #A1A1A1;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer i:hover {
+    color: #F9F9F9;
+}
+
+.footer p {
+    color: #A1A1A1;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
